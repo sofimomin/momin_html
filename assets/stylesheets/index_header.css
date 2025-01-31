@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Sofia&display=swap");
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+
+}
+.navbar{
+    height: 60px;
+    background-color: rgba(89, 98, 117,1.0);
+    display: flex;
+    align-items: center;  /* y axis */
+    justify-content: space-between;  /* x axis */
+    color: white;
+    padding: 0 80px;
+}
+.left_nav{
+  display: flex;
+  align-items: baseline;
+  /* justify-content: space-evenly; */
+  gap: 10px;
+
+}
+
+.right_nav{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.login-btn{
+  padding: 8px 16px;
+  background-color: rgba(61, 193, 211,1.0);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: large;
+
+
+}
+
+.signup-btn{
+  padding: 8px 16px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: large;
+}
+
+.login-btn:hover{
+  background-color: rgb(255, 182, 127);
+  transition: all 0.5s ease-in-out;
+ 
+}
+.signup-btn:hover{
+  background-color: rgb(8, 91, 63); 
+  transition: all 0.5s ease-in-out;
+ 
+}
+
+
+
+.montserrat-regular {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+}
